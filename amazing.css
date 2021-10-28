@@ -1,0 +1,41 @@
+img{
+	border: 1px solid ;
+}
+h1{
+	background: black;
+}
+h1,h2{
+	color: grey;
+}
+.s h2{
+	border: green 2px solid;
+
+}
+#mon > * {
+	color: pink;
+}
+#mon > *>*{
+
+	color: black;
+	border: 2px red solid;
+}
+
+#mon>*>*>* {
+	background-color: yellow;
+
+}
+#tue h2:hover  , #mon h2:hover{
+	color: red;
+}
+.w h2:hover{
+	color: green;
+}
+li:first-child{
+	font-weight: bold;
+}
+li:nth-child(2){
+	color:red;
+}
+li:nth-of-type(5n+3){
+	color:green ;
+}
